@@ -6,8 +6,8 @@ let brightness = 0;
 function setup() {
   createCanvas(400, 400);
   
-bulbOn = loadImage("images/bulb_on.png")
-bulbOff = loadImage("images/bulb_off.png")
+bulbOn = loadImage("image/bulb_on.png");
+bulbOff = loadImage("image/bulb_off.png");
        
 }
 
@@ -16,9 +16,9 @@ function draw() {
   
 imageMode(CENTER);
   if (brightness ==1 ){
-image(bulbOn,width/2,height/2, 300, 300)
+image(bulbOn,width/2,height/2, 300, 300);
   }else{
-image(bulbOff,width/2,height/2, 300, 300)
+image(bulbOff,width/2,height/2, 300, 300);
   }
 }
 

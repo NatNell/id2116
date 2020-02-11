@@ -7,7 +7,7 @@ body {font-family: "Lato", sans-serif}
 }
 
 body {
-  background-color: #474e5d;
+  background-color: #313131;
   font-family: Helvetica, sans-serif;
 }
 p {
@@ -16,7 +16,6 @@ p {
 h3{
     text-align: center;
 }
-
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
